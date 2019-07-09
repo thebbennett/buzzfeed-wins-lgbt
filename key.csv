@@ -1,0 +1,405 @@
+,question,column
+0,ResponseID,responseid
+1,RespID,respid
+2,Status,status
+3,Interview Start,interview_start
+4,Interview End,interview_end
+5,Survey Status,surveystatus
+6,PID,pid
+7,PSID,psid
+8,Length of Interview,loi
+9,Which of the following best describes your current profession?,qs1
+10,What is your age?,qs2
+11,Age Code,qs3
+12,Code Generation,qs3a
+13,In which of the following states do you currently reside?,qs4
+14,Region,hidqregion
+15,"CENSUS DIVISION (quota to census for home sales by region or state) New England (ME, NH, VT, MA, RI, CT) Middle Atlantic (NY, NJ, PA) East North Central (WI, IL, MI, IN, OH) West North Central...",hidqdivision
+16,What sex were you assigned at birth?,qs5a
+17,What is your gender identity?,qs5b
+18,What is your gender identity? - Prefer to self-describe,qs5b_5_other
+19,Do you identify as transgender?,qs6
+20,Do you identify your sexual orientation as…,qs7
+21,Do you identify your sexual orientation as… - Prefer to self-describe,qs7_5_other
+22,Code Audience - Transgender,qs8_1
+23,Code Audience - Gay Men,qs8_2
+24,Code Audience - Lesbian Women,qs8_3
+25,Code Audience - Bisexual All Genders,qs8_4
+26,"Code Audience - Queer, Non-binary",qs8_5
+27,Code Audience - Straight Cis,qs8_6
+28,Code Audience - Prefer not to answer,qs8_7
+29,Code Audience - Would not satisfy Code 1-5,qs8_8
+30,"In your own words, what does it mean to you personally to be LGBTQ?",q1a
+31,What is your present marital status?,q1
+32,Are you currently in a relationship?,q2
+33,How long have you been in your current relationship? - Years,q3_1
+34,How long have you been in your current relationship? - Months,q3_2
+35,Which of the following best describes your relationship preference?,q4
+36,Which of these best describes your current relationship?,q5
+37,Which of these best describes your current relationship? - Other,q5_4_other
+38,"To the best of your recollection, how many committed relationships have you had in the past 5 years?",q6
+39,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Physical attraction,q7_1
+40,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Passion during sex,q7_2
+41,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Intimacy and emotional connection during sex,q7_3
+42,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Intimacy and emotional connection outside of sex,q7_4
+43,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Intellectual compatibility,q7_5
+44,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Sense of humor,q7_6
+45,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner is a natural fit with my family,q7_7
+46,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner is a natural fit with my friends,q7_8
+47,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner is financially stable,q7_9
+48,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner financially supports me,q7_10
+49,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Trust,q7_11
+50,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - Loyalty,q7_12
+51,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner has the same racial or ethnic background as me,q7_13
+52,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner has the same political beliefs as I do,q7_14
+53,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner has the same religious beliefs as I do,q7_15
+54,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner has similar ideas about having and raising children,q7_16
+55,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner is successful in their career,q7_17
+56,Different things can be important to different individuals in relationships. Please use the scale below to indicate how important or not important each... - My partner has a long-term career,q7_18
+57,"To the best of your recollection, at what age did you first experience romantic love?",q7a
+58,"To the best of your recollection, at what age did you first experience romantic love? - I have never experienced romantic love",q7ax
+59,"To the best of your recollection, at what age did you first realize you were LGBTQ?",q8a
+60,"To the best of your recollection, at what age did you first realize you were LGBTQ? - I have always known",q8ax
+61,Have you come out?,q8
+62,People can have many different reasons for not coming out at a given point or at all. Why have you personally not come out?,q9
+63,Who did you come out to first? - Former significant other,q10_1
+64,Who did you come out to first? - Friend,q10_2
+65,Who did you come out to first? - Father,q10_3
+66,Who did you come out to first? - Mother,q10_4
+67,Who did you come out to first? - Sibling,q10_5
+68,"Who did you come out to first? - Other family member (e.g., Grandparent, Aunt/Uncle)",q10_6
+69,Who did you come out to first? - Colleague/Coworker,q10_7
+70,Who did you come out to first? - Classmate,q10_8
+71,Who did you come out to first? - Teammate,q10_9
+72,Who did you come out to first? - Roommate,q10_10
+73,Who did you come out to first? - Teacher/Professor,q10_11
+74,Who did you come out to first? - Religious/spiritual advisor/counselor,q10_13
+75,Who did you come out to first? - Other,q10_12
+76,Who did you come out to first? - Other,q10_12_other
+77,At what age did you come out?,q11
+78,CODE HOW MANY YEARS AGO RESP CAME OUT,q12
+79,CODE YEARS BETWEEN REALIZING LGBTQ AND COMING OUT.,q12a
+80,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I felt it was an important political/social statement",q13_1
+81,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I was outed by someone else against my wishes",q13_2
+82,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I was tired of feeling like I was hiding myself",q13_4
+83,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I knew my parents would be supportive",q13_5
+84,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I knew my friends would be supportive",q13_6
+85,"Please indicate how much or how little each of the following influenced your decision to come out using the scale below, where 1 means it did not at all influence... - I wanted to publicly pursue sexual relationships",q13_7
+86,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - I was met with a lot of support and understanding",q14_1
+87,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - I experienced a lot of bullying or harassment",q14_2
+88,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - Coming out made me feel alienated from my family",q14_3
+89,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - Coming out made me feel alienated from my friends",q14_4
+90,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - Coming out made me happier",q14_5
+91,"Please indicate how much or how little each of the following describes your coming out experience using the scale below, where 1 means it does not at all describe your...  - Coming out made my situation worse",q14_6
+92,Did you need to leave home as a minor because your parents/guardians were hostile to your sexual orientation or gender identity?,q14a
+93,Did you become homeless as a result?,q14b
+94,"Overall, was your coming out experience…",q15
+95,"To the best of your recollection, how many sexual partners have you had in the past year?",q16
+96,"Thinking about your sexual partners typically, are they…",q17
+97,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Oral Sex",q18_1
+98,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Anal Sex",q18_2
+99,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Finger/Hand Penetration",q18_3
+100,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Sex Toys",q18_5
+101,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Vaginal Sex",q18_4
+102,"Thinking about your typical sexual activity, roughly what percent of your activity falls into each of the following categories? - Other Genital Contact",q18_6
+103,"How frequently do you use condoms during any kind of sexual intercourse (i.e., vaginal/anal intercourse)?",q19
+104,"How often do you have sex, generally?",q20
+105,What is the longest period you have gone without having sex with your current or most recent partner/s?,q21
+106,"Please use the scale below to indicate how satisfied you are with your current sex life, with 1 meaning you are very dissatisfied and 5 meaning you are very satisfied.",q22_1
+107,How did you and your current or most recent partner/s meet?,q23
+108,How did you and your current or most recent partner/s meet? - Other,q23_7_other
+109,Has an intimate partner ever been physically violent toward you?,q24a
+110,Have you previously been married (not including a current marriage)?,q25
+111,How many times have you been married previously (not including a current marriage)?,q25a
+112,Q26 Loop,dumq26_1
+113,What was the gender of your previous spouse? - 1st Marriage,q26_1
+114,What was the gender of your previous spouse? - Other - 1st Marriage,q26_4_other_1
+115,Q26 Loop,dumq26_2
+116,What was the gender of your previous spouse? - 2nd Marriage,q26_2
+117,What was the gender of your previous spouse? - Other - 2nd Marriage,q26_4_other_2
+118,Q26 Loop,dumq26_3
+119,What was the gender of your previous spouse? - 3rd Marriage,q26_3
+120,What was the gender of your previous spouse? - Other - 3rd Marriage,q26_4_other_3
+121,Q26 Loop,dumq26_4
+122,What was the gender of your previous spouse? - 4th Marriage,q26_4
+123,What was the gender of your previous spouse? - Other - 4th Marriage,q26_4_other_4
+124,Q26 Loop,dumq26_5
+125,What was the gender of your previous spouse? - 5th Marriage,q26_5
+126,What was the gender of your previous spouse? - Other - 5th Marriage,q26_4_other_5
+127,Q26 Loop,dumq26_6
+128,What was the gender of your previous spouse? - 6th Marriage,q26_6
+129,What was the gender of your previous spouse? - Other - 6th Marriage,q26_4_other_6
+130,Q26 Loop,dumq26_7
+131,What was the gender of your previous spouse? - 7th Marriage,q26_7
+132,What was the gender of your previous spouse? - Other - 7th Marriage,q26_4_other_7
+133,Q26 Loop,dumq26_8
+134,What was the gender of your previous spouse? - 8th Marriage,q26_8
+135,What was the gender of your previous spouse? - Other - 8th Marriage,q26_4_other_8
+136,Q26 Loop,dumq26_9
+137,What was the gender of your previous spouse? - 9th Marriage,q26_9
+138,What was the gender of your previous spouse? - Other - 9th Marriage,q26_4_other_9
+139,Q26 Loop,dumq26_10
+140,What was the gender of your previous spouse? - 10th Marriage,q26_10
+141,What was the gender of your previous spouse? - Other - 10th Marriage,q26_4_other_10
+142,Which of the following most closely describes your feelings toward getting married?,q27
+143,"Please indicate how much you agree or disagree with the following items. Use the scale below, in which 1 means that you strongly... - Getting married as an LGBTQ American is a strong political/social statement",q28_1
+144,"Please indicate how much you agree or disagree with the following items. Use the scale below, in which 1 means that you strongly... - It is important that individuals marry if they want to spend their lives together",q28_2
+145,"Please indicate how much you agree or disagree with the following items. Use the scale below, in which 1 means that you strongly... - Marriage reinforces sexist ideas",q28_3
+146,"Please indicate how much you agree or disagree with the following items. Use the scale below, in which 1 means that you strongly... - Marriage reinforces heterosexual norms",q28_5
+147,"Please indicate how much you agree or disagree with the following items. Use the scale below, in which 1 means that you strongly... - Individuals don’t need to get married to spend the rest of their lives together",q28_4
+148,"Do you personally think that marriage between more than two people (i.e., polygamy) should be legal?",q29a
+149,Which of the following most closely describes your feelings toward having or raising children in the future?,q29
+150,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - Adoption,q30_1
+151,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - Surrogacy,q30_2
+152,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - In-vitro fertilization,q30_3
+153,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - Pregnancy through intercourse,q30_4
+154,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - Other,q30_5
+155,You indicated that you would like to have/raise children at some point in the future. Through which of the following means would you consider having a child? - Other,q30_5_other
+156,"Please indicate how much you agree or disagree with each of the following statements regarding to having and/or raising children. Use the scale below,... - It is important to be married before having children",q31_1
+157,"Please indicate how much you agree or disagree with each of the following statements regarding to having and/or raising children. Use the scale below,... - It’s fine to be a single parent by choice",q31_3
+158,Please indicate how much you agree or disagree with each of the following statements regarding to having and/or raising... - I worry about children being bullied about their parents’ sexual orientation or gender identity,q31_4
+159,"Please indicate how much you agree or disagree with each of the following statements regarding to having and/or raising children. Use the scale below,... - Having two parents of the opposite sex is best for raising children",q31_5
+160,"In thinking about interactions with health care providers in the past three years, how would you characterize the interactions overall?",q32
+161,"In thinking about interactions with health care providers in the past three years, have you experienced... - Denied treatment on the basis of my sexual orientation or gender identity",q33_1
+162,"In thinking about interactions with health care providers in the past three years, have you experienced... - Experienced verbal harassment/abuse from a health care provider regarding my sexual orientation or gender identity",q33_2
+163,"In thinking about interactions with health care providers in the past three years, have you experienced... - Felt judgment and/or condescension from a health care provider in regards to my sexual orientation or gender identity",q33_3
+164,"In thinking about interactions with health care providers in the past three years, have you experienced... - None of the above",q33_4
+165,How frequently do you get tested for HIV?,q34
+166,"How frequently do you get tested for STD/STI, excluding HIV?",q35
+167,Have you ever heard of Pre-exposure Prophylaxis (also known as PrEP)?,q36
+168,Have you ever taken Pre-exposure Prophylaxis (also known as PrEP)?,q37
+169,Please indicate how much you agree or disagree with each of the following. - PrEP is important for overall LGBTQ health when it comes to preventing HIV,q38_1
+170,Please indicate how much you agree or disagree with each of the following. - It is embarrassing to ask about or discuss PrEP,q38_3
+171,Please indicate how much you agree or disagree with each of the following. - PrEP promotes unhealthy sexual behavior,q38_4
+172,Please indicate how much you agree or disagree with each of the following. - PrEP should be free,q38_5
+173,Please indicate how much you agree or disagree with each of the following. - PrEP is only for gay men,q38_6
+174,Please indicate how much you agree or disagree with each of the following. - I don’t know how to get PrEP,q38_7
+175,"Overall, how would you rate your physical health?",q39
+176,"Overall, how would you rate your mental health?",q40
+177,Have you ever experienced any of the following? - Anxiety or a panic disorder,q41_1
+178,Have you ever experienced any of the following? - A mood disorder,q41_2
+179,Have you ever experienced any of the following? - Substance abuse,q41_3
+180,Have you ever experienced any of the following? - Eating disorder,q41_4
+181,Have you ever experienced any of the following? - Self-injury or suicide attempt,q41_5
+182,Have you ever experienced any of the following? - Depression,q41_6
+183,Have you ever experienced any of the following? - PTSD,q41_7
+184,Have you ever experienced any of the following? - Alcohol abuse,q41_10
+185,Have you ever experienced any of the following? - A different mental health issue,q41_8
+186,Have you ever experienced any of the following? - Prefer not to answer,q41_9
+187,Have you ever experienced any of the following? - A different mental health issue - Other,q41_8_other
+188,Have you ever been the victim of violence because of your sexual orientation or gender identity?,q42b
+189,Have you ever experienced any of the following? - Sexual harassment,q42_1
+190,Have you ever experienced any of the following? - Sexual assault,q42_2
+191,Have you ever experienced any of the following? - Rape,q42_3
+192,Have you ever experienced any of the following? - Someone forcing me into sexual acts even though I said “no” or otherwise indicated that I did not want to,q42_4
+193,Have you ever experienced any of the following? - None of the above,q42_5
+194,Have you ever experienced any of the following? - Prefer not to answer,q42_6
+195,Have you ever experienced unwanted groping or other forms of sexual assault at an LGBTQ bar?,q42a
+196,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - LGBTQ bar",q43_1
+197,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - Non-LGBTQ bar",q43_2
+198,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - Walking down the street during the day",q43_3
+199,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - Walking down the street at night",q43_4
+200,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - At work/school",q43_5
+201,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - At a party",q43_6
+202,"Given your sexual orientation and gender identity, how safe do you feel you are or would be at each of the following? - At home",q43_7
+203,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Experienced some form of discrimination due to sexual orientation or gender identity",q44_1
+204,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Been fired due to my sexual orientation or gender identity",q44_2
+205,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Not been hired due to my sexual orientation or gender identity",q44_3
+206,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Denied a promotion or raise due to my sexual orientation or gender identity",q44_4
+207,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Left a job because the environment was unwelcoming",q44_5
+208,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Had my work negatively affected by discrimination",q44_7
+209,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Felt I had to lie about my sexual orientation or gender identity at work",q44_8
+210,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Notified HR of discrimination or bias in the workplace",q44_10
+211,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - Had limited or inadequate healthcare coverage relating to LGBTQ issues",q44_11
+212,"Please indicate which of the following you have experienced in the workplace in the past 10 years, in regards to your orientation or identity. - None of the above",q44_12
+213,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - Socially",q45_1
+214,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - Publically",q45_2
+215,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - Medically",q45_4
+216,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - Other",q45_3
+217,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - None of the Above",q45_5
+218,"Some transgender individuals choose to transition in different ways, or through some combination of several ways.. Have you at any point begun the process of transitioning in any of the following ways? - Other",q45_3_other
+219,"You indicated that you have at some point begun a social, public, or medical transition. Please indicate which of the following... - I have hidden or delayed my gender transition to avoid mistreatment in the workplace",q46_1
+220,"You indicated that you have at some point begun a social, public, or medical transition. Please indicate which of the following... - I have quit my job because of discrimination in regards to my gender transition",q46_2
+221,"You indicated that you have at some point begun a social, public, or medical transition. Please indicate which of the following... - I have felt unwelcome at work because of my gender transition",q46_3
+222,"You indicated that you have at some point begun a social, public, or medical transition. Please indicate which of the following... - None of the above",q46_4
+223,Has a place of business ever refused to serve you because of your sexual orientation or gender identity?,q47a
+224,Has a landlord or property manager ever denied you housing or discriminated in any other way against you because of your sexual orientation or gender identity?,q47b
+225,"Have you ever been harassed or otherwise discriminated against for using a restroom that matches your gender identity in a place of business, school, or other public facility?",q47c
+226,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Public transportation",q47_1
+227,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Retail store, restaurant, hotel, or theater",q47_2
+228,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Drug or alcohol treatment program",q47_3
+229,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Domestic violence shelter or program or rape crisis center",q47_4
+230,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Gym or health club",q47_5
+231,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Public assistance or government benefit office",q47_6
+232,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Department of Motor Vehicles (DMV)",q47_7
+233,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Nursing home or extended care facility",q47_8
+234,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Court or courthouse",q47_9
+235,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Social Security office",q47_10
+236,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Legal services from an attorney, clinic, or legal professional",q47_11
+237,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Public restroom",q47_12
+238,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Interactions with landlord",q47_13
+239,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Interactions with real estate broker/agent",q47_14
+240,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - Doctor's office, health clinic, hospital",q47_15
+241,"Have you ever been denied equal treatment or service, verbally harassed, or physically attacked at any of the following on the basis of your sexuality... - None of the above",q47_16
+242,"Please indicate how much you agree or disagree... - Businesses open to the public (including bakeries, florists, banquet halls, etc.) should be allowed to refuse service to LGBTQ people based on their religious objections",q47d_1
+243,Please indicate how much you agree or disagree with each of the following statements... - Employers should be allowed to fire and refuse to hire LGBTQ people based on their religious objections,q47d_2
+244,"Please indicate how much you agree or disagree with each of the following statements... - Schools should be allowed to make transgender students use bathrooms that match their sex at birth, not their gender identity",q47d_3
+245,"In general, if you had to name one individual who has had the most negative impact on the LGBTQ community in the past 5 years, who would that be?",q48
+246,"In general, if you had to name one individual who has had the most positive impact on the LGBTQ community in the past 5 years, who would that be?",q50
+247,Are you registered to vote?,q52
+248,"Although it is some time from now, what are the chances of you voting in the November 2018 election for Congress and other offices?",q53
+249,"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",q54
+250,"If you had to choose one, which of the following issues is most important to you in the November 2018 election for Congress and other offices?",q54a
+251,"If you had to choose one, which of the following issues is most important to you in the November 2018 election for Congress and other offices? - Other",q54a_11_other
+252,"Regardless of which party you intend to support, do you think Democrats or Republicans are better on issues that matter to LGBTQ people?",q54b
+253,"Would you say that things in this country are generally headed in the right direction, or are things pretty seriously off on the wrong track?",q55
+254,Which of the following apply to you? - I vote in both state and federal elections,q56a_1
+255,Which of the following apply to you? - I vote in federal elections only,q56a_2
+256,Which of the following apply to you? - I donate to campaigns,q56a_3
+257,Which of the following apply to you? - I donate to political organizations,q56a_7
+258,Which of the following apply to you? - I volunteer on campaigns,q56a_4
+259,Which of the following apply to you? - I am a member of a political organization,q56a_5
+260,Which of the following apply to you? - I am not politically involved,q56a_6
+261,"Thinking about the past 2 years… In your opinion, has America become…",q56
+262,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - The Trump White House,q57_9
+263,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Activists,q57_10
+264,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - The political environment,q57_1
+265,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Education,q57_2
+266,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - The #MeToo movement,q57_3
+267,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Celebrities,q57_4
+268,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - The media,q57_5
+269,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Securing Marriage Equality Nationwide,q57_6
+270,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - The Supreme Court,q57_7
+271,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Other,q57_8
+272,Which of the following has contributed to these changes in acceptance towards LGBTQ individuals? - Other,q57_8_other
+273,"Thinking about the past 2 years… In your opinion, compared to the Obama Administration, is the Trump Administration better or worse on issues affecting LGBTQ Americans...",q58
+274,"Thinking of your town/city/suburb specifically, is the community becoming…",q59
+275,"Thinking about the past 2 years and transgender individuals specifically… In your opinion, has America become…",q59h
+276,How familiar do you feel you are with the national conversation on gun legislation?,q59a
+277,"In general, do you think laws covering the sale of guns should be made more strict, less strict, or kept as they are now?",q59b
+278,Do you believe the current Congress will pass any new gun safety laws following the latest events in Parkland and Las Vegas?,q59c
+279,"Have your views on guns changed since June of 2016, when the Pulse nightclub shooting occurred?",q59d
+280,Please indicate whether you support or oppose the following gun safety proposals. - Banning assault weapons,q59e_1
+281,Please indicate whether you support or oppose the following gun safety proposals. - Banning large capacity magazines,q59e_2
+282,Please indicate whether you support or oppose the following gun safety proposals. - Preventing individuals convicted of hate crimes from purchasing guns,q59e_3
+283,Please indicate whether you support or oppose the following gun safety proposals. - Expanding background checks to cover all gun sales,q59e_4
+284,How likely are a political candidate’s positions on gun reform to impact your vote?,q59f_1
+285,Do you think the pride flag should include a brown and black stripe to represent LGBTQ people of color?,q60a
+286,Do you think transgender individuals should be allowed to serve in the military?,q60b
+287,"Generally, which of the following best describes the makeup of your regular friend group?",q60c
+288,"Please use the scale below to indicate how much you agree or disagree with the following statements about LGBTQ portrayal in entertainment currently. - As an LGBTQ person, I see myself reflected in entertainment today",q60_1
+289,Please use the scale below to indicate how much you agree or disagree with the following statements about LGBTQ portrayal in entertainment currently. - Today's entertainment relies too heavily on LGBTQ stereotypes,q60_2
+290,Please use the scale below to indicate how much you agree or disagree with the following statements about LGBTQ portrayal in entertainment currently. - I am proud of the way LGBTQ people are portrayed in today's entertainment,q60_4
+291,Please use the scale below to indicate how much you agree or disagree with the following statements about LGBTQ portrayal in entertainment currently. - LGBTQ representation in entertainment is improving,q60_5
+292,Which of the following have you personally seen? - Call Me By Your Name,q61_1
+293,Which of the following have you personally seen? - Thelma,q61_2
+294,"Which of the following have you personally seen? - Love, Simon",q61_3
+295,Which of the following have you personally seen? - Queer Eye,q61_4
+296,Which of the following have you personally seen? - RuPaul's Drag Race,q61_5
+297,Which of the following have you personally seen? - Milk,q61_6
+298,Which of the following have you personally seen? - Brokeback Mountain,q61_7
+299,Which of the following have you personally seen? - Paris is Burning,q61_8
+300,Which of the following have you personally seen? - Carol,q61_9
+301,Which of the following have you personally seen? - The Danish Girl,q61_10
+302,Which of the following have you personally seen? - Blue Is the Warmest Colour,q61_11
+303,Which of the following have you personally seen? - None of these,q61_12
+304,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Call Me By Your Name,dumq62_1
+305,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Thelma,dumq62_2
+306,"RANDOMLY SELECT 3 OF SELECTED TO INSERT - Love, Simon",dumq62_3
+307,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Queer Eye,dumq62_4
+308,RANDOMLY SELECT 3 OF SELECTED TO INSERT - RuPaul's Drag Race,dumq62_5
+309,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Milk,dumq62_6
+310,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Brokeback Mountain,dumq62_7
+311,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Paris is Burning,dumq62_8
+312,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Carol,dumq62_9
+313,RANDOMLY SELECT 3 OF SELECTED TO INSERT - The Danish Girl,dumq62_10
+314,RANDOMLY SELECT 3 OF SELECTED TO INSERT - Blue Is the Warmest Colour,dumq62_11
+315,RANDOMLY SELECT 3 OF SELECTED TO INSERT - None of these,dumq62_12
+316,Do you feel the portrayal of LGBTQ individuals/community in Call Me By Your Name is…,q62_1
+317,Do you feel the portrayal of LGBTQ individuals/community in Thelma is…,q62_2
+318,"Do you feel the portrayal of LGBTQ individuals/community in Love, Simon is…",q62_3
+319,Do you feel the portrayal of LGBTQ individuals/community in Queer Eye is…,q62_4
+320,Do you feel the portrayal of LGBTQ individuals/community in RuPaul's Drag Race is…,q62_5
+321,Do you feel the portrayal of LGBTQ individuals/community in Milk is…,q62_6
+322,Do you feel the portrayal of LGBTQ individuals/community in Brokeback Mountain is…,q62_7
+323,Do you feel the portrayal of LGBTQ individuals/community in Paris is Burning is…,q62_8
+324,Do you feel the portrayal of LGBTQ individuals/community in Carol is…,q62_9
+325,Do you feel the portrayal of LGBTQ individuals/community in The Danish Girl is…,q62_10
+326,Do you feel the portrayal of LGBTQ individuals/community in Blue Is the Warmest Colour is…,q62_11
+327,Please indicate which of the following you regularly read or use for news online. - Buzzfeed,q63_1
+328,Please indicate which of the following you regularly read or use for news online. - Vox,q63_2
+329,Please indicate which of the following you regularly read or use for news online. - CNN,q63_3
+330,Please indicate which of the following you regularly read or use for news online. - Fox News,q63_4
+331,Please indicate which of the following you regularly read or use for news online. - Facebook News,q63_5
+332,Please indicate which of the following you regularly read or use for news online. - Washington Post,q63_6
+333,Please indicate which of the following you regularly read or use for news online. - New York Times,q63_7
+334,Please indicate which of the following you regularly read or use for news online. - Los Angeles Times,q63_8
+335,Please indicate which of the following you regularly read or use for news online. - New York Post,q63_9
+336,Please indicate which of the following you regularly read or use for news online. - CBS News,q63_10
+337,Please indicate which of the following you regularly read or use for news online. - NBC News,q63_11
+338,Please indicate which of the following you regularly read or use for news online. - ABC News,q63_12
+339,How often do you use each of the following social media platforms? - Facebook,q64_1
+340,How often do you use each of the following social media platforms? - Instagram,q64_2
+341,How often do you use each of the following social media platforms? - Twitter,q64_3
+342,How often do you use each of the following social media platforms? - LinkedIn,q64_4
+343,How often do you use each of the following social media platforms? - Snapchat,q64_5
+344,How often do you use each of the following social media platforms? - YouTube,q64_6
+345,Please indicate which of the following dating apps/sites you have used at any point. - Tinder,q65_1
+346,Please indicate which of the following dating apps/sites you have used at any point. - Grindr,q65_2
+347,Please indicate which of the following dating apps/sites you have used at any point. - Bumble,q65_3
+348,Please indicate which of the following dating apps/sites you have used at any point. - OkCupid,q65_4
+349,Please indicate which of the following dating apps/sites you have used at any point. - HER,q65_5
+350,Please indicate which of the following dating apps/sites you have used at any point. - Chappy,q65_6
+351,Please indicate which of the following dating apps/sites you have used at any point. - Scruff,q65_7
+352,Please indicate which of the following dating apps/sites you have used at any point. - Adam4Adam,q65_8
+353,Please indicate which of the following dating apps/sites you have used at any point. - Hinge,q65_9
+354,Please indicate which of the following dating apps/sites you have used at any point. - Match.com,q65_10
+355,Please indicate which of the following dating apps/sites you have used at any point. - Elite Singles,q65_11
+356,Please indicate which of the following dating apps/sites you have used at any point. - PinkCupid,q65_12
+357,Please indicate which of the following dating apps/sites you have used at any point. - OurTime,q65_13
+358,Please indicate which of the following dating apps/sites you have used at any point. - Distinc.tt,q65_14
+359,Please indicate which of the following dating apps/sites you have used at any point. - None of these,q65_15
+360,At what point in a relationship would you personally be comfortable with sharing passwords to an online streaming service with your partner?,q66
+361,Please specify your ethnicity.,qd1
+362,How would you describe your race? - White or Caucasian,qd2_1
+363,How would you describe your race? - Black or African American,qd2_2
+364,How would you describe your race? - Asian,qd2_3
+365,How would you describe your race? - Native Hawaiian or Other Pacific Islander,qd2_4
+366,How would you describe your race? - American Indian or Alaska Native,qd2_5
+367,How would you describe your race? - Other,qd2_6
+368,How would you describe your race? - Other,qd2_6_other
+369,What is your religion?,qd3
+370,What is your religion? - Other,qd3_8_other
+371,Do you personally consider yourself to be a spiritual person?,qd4
+372,How would you describe your political affiliation these days?,qd5
+373,HIDDEN VARIABLE USED IN PROGRAMMING,dumrotate
+374,"Generally speaking, do you think of yourself as a Republican, a Democrat, an Independent or something else? Do you feel that way strongly or not so strong?",qd6
+375,"Generally speaking, do you think of yourself as a Republican, a Democrat, an Independent or something else? Do you feel that way strongly or not so strong? - Other",qd6_8_other
+376,Who did you vote for in the 2016 Presidential Election?,qd7
+377,"If President Donald Trump runs for re-election in 2020, would you vote for him?",qd7a
+378,People have different reasons for their vote. Why might you vote for Donald Trump if he runs for re-election in 2020?,qd7b
+379,People have different reasons for their vote. Why might you not vote for Donald Trump if he runs for re-election in 2020?,qd7c
+380,What is your astrological sign?,qd8
+381,What are your preferred pronouns?,qd9
+382,Do you have children?,qd10a
+383,Do you have any children age 18 or under living with you at home?,qd10
+384,Are you currently…,qd11
+385,Do you currently own a firearm?,qd12
+386,Do you regularly do any of the following? - Smoke or consume marijuana,qd12a_1
+387,"Do you regularly do any of the following? - Smoke tobacco (i.e., cigarettes, vape, electronic cigarettes)",qd12a_2
+388,Do you regularly do any of the following? - Drink alcohol,qd12a_3
+389,Do you regularly do any of the following? - None of the above,qd12a_4
+390,"Have you or any members of your household ever served in any branch of the U.S. Military (including U.S. Army, Navy, Air Force, Marines...? - I have served in the U.S. Military",qd13_1
+391,"Have you or any members of your household ever served in any branch of the U.S. Military (including U.S. Army, Navy, Air Force, Marines...? - One or more members of my household has served in the U.S. Military",qd13_2
+392,"Have you or any members of your household ever served in any branch of the U.S. Military (including U.S. Army, Navy, Air Force, Marines...? - None of the above",qd13_3
+393,Do you currently rent or own your home/apartment?,qd15
+394,What is the last grade of school you completed?,qd16
+395,"For statistical purposes ONLY, which of the following categories best represents your total household income from last year?",qd17
+396,weight1,weight1
+397,Race/Ethnicity,VARA8F4010F18414AF49050
+398,College/Non-College,VARA8F4012BFF89411488FD
+399,PID,VARA8F4012CE77E42AA88A9
+400,LGBTQ Audience,VARA8F4013021324B0A8635
+401,How long have you been in your current relationship?,VARA8F4013E88DB4C70B25A
+402,"To the best of your recollection, how many committed relationships have you had in the past 5 years?",VARA8F401404B0B4884B37B
+403,"To the best of your recollection, at what age did you first experience romantic love?",VARA8F401418C1647C38D94
